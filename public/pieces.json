@@ -1,0 +1,100 @@
+{
+    "king": {
+        "piecename": "king",
+        "isking": true,
+        "isknight": false,
+        "move" : [1, 1, 1, 1, 1, 1, 1, 1], //up, up-right, right, down-right, down, down-left, left, left-up
+        "promote": "none"
+    },
+    "gold": {
+        "piecename": "gold",
+        "isking": false,
+        "isknight": false,
+        "move": [1, 1, 1, 0, 1, 0, 1, 1],
+        "promote": "none"
+    },
+    "silver": {
+        "piecename": "silver",
+        "isking": false,
+        "isknight": false,
+        "move": [1, 1, 0, 1, 0, 1, 0, 1],
+        "promote": "psilver"
+    },
+    "psilver": {
+        "piecename": "promoted silver",
+        "isking": false,
+        "isknight": false,
+        "move": [1, 1, 1, 0, 1, 0, 1, 1],
+        "promote": "none"
+    },
+    "knight": {
+        "piecename": "knight",
+        "isking": false,
+        "isknight": true,
+        "move": "n/a",
+        "promote": "pknight"
+    },
+    "pknight": {
+        "piecename": "promoted knight",
+        "isking": false,
+        "isknight": false, //doesn't follow the same rules
+        "move": [1, 1, 1, 0, 1, 0, 1, 1],
+        "promote": "none"
+    },
+    "lance": {
+        "piecename": "lance",
+        "isking": false,
+        "isknight": false,
+        "move": [9, 0, 0, 0, 0, 0, 0, 0],
+        "promote": "plance"
+    },
+    "plance": {
+        "piecename": "promoted lance",
+        "isking": false,
+        "isknight": false,
+        "move": [1, 1, 1, 0, 1, 0, 1, 1],
+        "promote": "none"
+    },
+    "pawn": {
+        "piecename": "pawn",
+        "isking": false,
+        "isknight": false,
+        "move": [1, 0, 0, 0, 0, 0, 0, 0],
+        "promote": "ppawn"
+    },
+    "ppawn": {
+        "piecename": "promoted pawn",
+        "isking": false,
+        "isknight": false,
+        "move": [1, 1, 1, 0, 1, 0, 1, 1],
+        "promote": "none"
+    },
+    "rook": {
+        "piecename": "rook",
+        "isking": false,
+        "isknight": false,
+        "move": [9, 0, 9, 0, 9, 0, 9, 0],
+        "promote": "prook"
+    },
+    "prook": {
+        "piecename": "promoted rook",
+        "isking": false,
+        "isknight": false,
+        "move": [9, 1, 9, 1, 9, 1, 9, 1],
+        "promote": "none"
+    },
+    "bishop": {
+        "piecename": "bishop", 
+        "isking": false,
+        "isknight": false,
+        "move": [0, 9, 0, 9, 0, 9, 0, 9],
+        "promote": "pbishop"
+    },
+    "pbishop": {
+        "piecename": "promoted bishop", 
+        "isking": false,
+        "isknight": false,
+        "move": [1, 9, 1, 9, 1, 9, 1, 9],
+        "promote": "none"
+    }
+}

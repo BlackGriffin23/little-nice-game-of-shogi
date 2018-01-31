@@ -1,0 +1,18 @@
+{
+  "name": "project-green",
+  "version": "1.0.0",
+  "description": "Project for the School of Programmers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivanov Yury",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "node-static": "^0.7.10",
+    "popper.js": "^1.12.9",
+    "ws": "^4.0.0"
+  }
+}
