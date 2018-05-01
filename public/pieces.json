@@ -3,7 +3,7 @@
         "piecename": "king",
         "isking": true,
         "isknight": false,
-        "move" : [1, 1, 1, 1, 1, 1, 1, 1], //up, up-right, right, down-right, down, down-left, left, left-up
+        "move" : [1, 1, 1, 1, 1, 1, 1, 1],
         "promote": "none"
     },
     "gold": {
@@ -18,9 +18,9 @@
         "isking": false,
         "isknight": false,
         "move": [1, 1, 0, 1, 0, 1, 0, 1],
-        "promote": "psilver"
+        "promote": "silverp"
     },
-    "psilver": {
+    "silverp": {
         "piecename": "promoted silver",
         "isking": false,
         "isknight": false,
@@ -31,13 +31,13 @@
         "piecename": "knight",
         "isking": false,
         "isknight": true,
-        "move": "n/a",
-        "promote": "pknight"
+        "move": "n//a",
+        "promote": "knightp"
     },
-    "pknight": {
+    "knightp": {
         "piecename": "promoted knight",
         "isking": false,
-        "isknight": false, //doesn't follow the same rules
+        "isknight": false,
         "move": [1, 1, 1, 0, 1, 0, 1, 1],
         "promote": "none"
     },
@@ -46,9 +46,9 @@
         "isking": false,
         "isknight": false,
         "move": [9, 0, 0, 0, 0, 0, 0, 0],
-        "promote": "plance"
+        "promote": "lancep"
     },
-    "plance": {
+    "lancep": {
         "piecename": "promoted lance",
         "isking": false,
         "isknight": false,
@@ -60,9 +60,9 @@
         "isking": false,
         "isknight": false,
         "move": [1, 0, 0, 0, 0, 0, 0, 0],
-        "promote": "ppawn"
+        "promote": "pawnp"
     },
-    "ppawn": {
+    "pawnp": {
         "piecename": "promoted pawn",
         "isking": false,
         "isknight": false,
@@ -74,9 +74,9 @@
         "isking": false,
         "isknight": false,
         "move": [9, 0, 9, 0, 9, 0, 9, 0],
-        "promote": "prook"
+        "promote": "rookp"
     },
-    "prook": {
+    "rookp": {
         "piecename": "promoted rook",
         "isking": false,
         "isknight": false,
@@ -88,9 +88,9 @@
         "isking": false,
         "isknight": false,
         "move": [0, 9, 0, 9, 0, 9, 0, 9],
-        "promote": "pbishop"
+        "promote": "bishopp"
     },
-    "pbishop": {
+    "bishopp": {
         "piecename": "promoted bishop", 
         "isking": false,
         "isknight": false,

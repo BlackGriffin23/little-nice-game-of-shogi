@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Известные проблемы и контакты</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Известные проблемы</h1>
+    <div>
+        <p>1. Матч не завершается по достижению мата, шахи не обозначаются. Для завершения игры можно нажать кнопку "Сдаться?" около игрового поля.</p>
+        <p>2. Рука часто тбражается некорректно. Если в матче нет зрителей, то вы можете просто перезагрузить страницу, чтобы плучить верную информацию о руке игроков.</p>    
+    </div>
+    <h1>Контакт</h1>
+    <p>Найденные проблемы и пожелания прошу направлять на адрес Griffinion23@yandex.ru. Программа создана Ивановом Юрием как проект для курса JavaScript Школы Программистов Яндекса.</p>
+    <p>Backspace to return</p>
+    <script>
+        document.addEventListener("keydown", function(e){
+            if (e.keyCode==8) {
+                location.href="./index.html"
+            }
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
